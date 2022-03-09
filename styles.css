@@ -1,15 +1,15 @@
 body {
     background-color: #f0927ad7;
-    background-image: url("./images/rockbreakfast.jpg");
-    background-repeat: no-repeat;
    }
 *{
     font-family: "Times New Roman", sans-serif;
 }
 .header {
     color:rgb(173, 37, 37);
+    background-color: white;
+    text-align: center;
 }
-.header.big {
+.big {
     font-size: 38px;
 }
 .small{
@@ -18,3 +18,8 @@ body {
 .listelement {
     font-size: 24px;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
